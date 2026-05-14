@@ -29,9 +29,9 @@
     Works with: Claude Code · Cursor · Windsurf · Cline · Copilot · Continue.dev · Codex · Gemini CLI
   </p>
   <p align="center">
-    <a href="#-quick-start">Quick Start</a> &bull;
-    <a href="#-connect-to-ai-agents">AI Agents</a> &bull;
-    <a href="#-benchmark">Benchmarks</a> &bull;
+    <a href="#quick-start">Quick Start</a> &bull;
+    <a href="#connect-to-ai-agents--mcp-skill-onboarding">AI Agents</a> &bull;
+    <a href="#benchmark">Benchmarks</a> &bull;
     <a href="https://docs.fastcrw.com/#rest-api">API Reference</a> &bull;
     <a href="https://fastcrw.com">Cloud</a> &bull;
     <a href="https://discord.gg/kkFh2SC8">Discord</a>
@@ -39,10 +39,6 @@
   <p align="center">
     <b>English</b> | <a href="README.zh-CN.md">中文</a>
   </p>
-</p>
-
-<p align="center">
-  <img src="docs/demo.gif" alt="fastCRW Demo" width="700" />
 </p>
 
 ---
@@ -119,7 +115,7 @@
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Install:
@@ -388,7 +384,7 @@ return a clear `search_disabled` error.
 
 ---
 
-## 🤖 Connect to AI Agents
+## Connect to AI Agents — MCP, Skill, Onboarding
 
 Add CRW to any AI agent or MCP client in seconds.
 
@@ -474,7 +470,7 @@ curl -s https://fastcrw.com/agent-onboarding/SKILL.md
 
 ---
 
-## 📊 Benchmark
+## Benchmark
 
 ### Search — CRW vs Firecrawl vs Tavily (100 queries, concurrent)
 
@@ -523,7 +519,7 @@ python bench/run_bench.py
 
 ---
 
-## 📦 Install
+## Install
 
 ### MCP Server (`crw-mcp`) — recommended for AI agents
 
@@ -737,7 +733,7 @@ crw example.com -o page.md             # write to file
 
 ---
 
-## 🏠 Self-Hosting
+## Self-Hosting
 
 Once [installed](#api-server-crw-server--firecrawl-compatible-rest-api), start the server and optionally enable JS rendering:
 
